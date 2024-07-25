@@ -16,6 +16,7 @@ public:
     }
     student(student &obj){
         this->name = obj.name;
+        cgpaPtr = new double;
         *cgpaPtr = *obj.cgpaPtr;
     }
     void getInfo(){
